@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+body{
+    background-color: #9aa1c2;
+    color: #ffffff;
+        
+}
+ ul  {
+    list-style-type: none;
+ }
+
+
+#title{
+    text-align: center;
+    margin: 15px 15px 15px ;
+   
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+   justify-content:center;
+    align-items: center;
+    
+    
+}
+
+#logo {
+    cursor: pointer;
+    
+}
+
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #9dc5c5;
+    border-radius: 10px;
+    height: 120px;
+    box-shadow: rgb(0, 0, 0) 4px 5px 50px;
+    margin-top: 10px;
+    padding: 1px 5px 5px ;
+   
+}
+
+#info-card-head {
+    margin: 1px 2px 1px ;
+    text-decoration: underline solid;
+
+}
+
+#contact-info {
+    display: flex;
+    flex-direction: column;
+    margin: 19px;
+    text-align: center;
+    
+}
+
+#bakeinfo{
+    text-align: center;
+    
+}
+
+
+#auto-heading {
+    margin: 7px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-top: -202px ;
+   
+
+}
+
+.info.logo {
+    visibility: visible;
+}
+
+
+#donut:hover{
+    transform: rotate(720deg);
+    
+   
+}
+
+#donut {
+    cursor: pointer;
+    transition: transform 19s ease-in-out 
+   
+}
+
+
+button {
+    padding: 20px;
+    margin: 10px;
+    border:antiquewhite solid 2px;
+    border-radius: 10px;
+    background-color:coral;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    
+}
+
+#reset:hover {
+    background:#ee0606;
+    color:black ;
+    border:2px solid #2c3e50 ;
+}
+
+#auto-clicker:hover {
+    background:#ecf0f1;
+    color:black ;
+    border:2px solid #2c3e50 ;
+    
+}
+
+.hide{
+    display: none;
+}
+
+
+

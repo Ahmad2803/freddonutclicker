@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Css/style.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+<h1 id="title">Donut Clicker</h1>
+<nav>
+ <div class="logo">
+        <img src="images/baker-logo.png" alt="" onclick="showHide()" id="logo" width="200px">
+        <div class="info hide">
+            <h3 id="info-card-head">Fred the Baker Baking Company</h3>
+            <p id="bakeinfo">Fred the Baker is tired of making real donuts and is ready to retire. To keep his love for baking thriving ive created a donut clicker game.</p>
+            <p>Enjoy!</p>
+            <div id="contact-info">
+                <h3 id="link-heading">More from Developer...</h3>
+                <ul id="links">
+                    <li id="github"><a href="https://github.com/Ahmad2803">GitHub</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <h1 id="click-heading">Clicks: 0 </h1>
+    <h1 id="auto-heading">AutoClickers: 0</h1>
+    <h2 id="auto-pricing">AutoClicker Price: $100</h2>
+<img src="images/pngegg.png" alt="" id="donut" width="200px" height="200px">
+
+<div class="buttons">
+    <button id="auto-clicker">AutoClicker</button>
+    <button onclick="resetGame()" id="reset">Reset Game</button>
+</div>
+</div>
+
+
+<script src="app.js"></script>
+</body>
+
+<footer>Ahmad Omo-abu &copy;</footer>
+</html>
